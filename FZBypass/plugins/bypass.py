@@ -70,7 +70,7 @@ async def bypass_check(client, message):
                 #bp_link = bp_link
                 #ui = ""
         else:
-            bp_link = f"\n┖ <b>Bypass Link:</b> {result}"
+            bp_link = f"\n<b>{result}</b>\n"
     
         if is_excep_link(link):
             #parse_data.append(f"{bp_link}\n\n━━━━━━━✦✗✦━━━━━━━\n\n")
