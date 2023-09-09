@@ -1,4 +1,4 @@
-from time import time
+ from time import time
 from re import match
 from asyncio import create_task, gather, sleep as asleep, create_subprocess_exec
 from pyrogram.filters import command, private, user
@@ -70,7 +70,7 @@ async def bypass_check(client, message):
                 #bp_link = bp_link
                 #ui = ""
         else:
-            bp_link = f"\n"result
+            bp_link = result
     
         if is_excep_link(link):
             #parse_data.append(f"{bp_link}\n\n━━━━━━━✦✗✦━━━━━━━\n\n")
