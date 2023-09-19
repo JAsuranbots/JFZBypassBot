@@ -25,7 +25,7 @@ async def start_msg(client, message):
             ])
     )
 
-@Bypass.on_message(command(['bypass', 'bp', 'b'])
+@Bypass.on_message(command(['bypass', 'bp', 'b']))
 #@Bypass.on_message(command(['bypass', 'bp', 'b']) & (user(Config.OWNER_ID) | chat_and_topics))
 async def bypass_check(client, message):
     uid = message.from_user.id
