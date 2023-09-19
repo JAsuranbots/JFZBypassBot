@@ -25,7 +25,7 @@ class Config:
     if BOT_TOKEN == '' or API_HASH == '' or API_ID == '':
         LOGGER.critical('ENV Missing. Exiting Now...')
         exit(1)
-    AUTH_CHATS      = getenv('AUTH_CHATS', '').split()
+    AUTH_CHATS      = getenv('AUTH_CHATS', '-1004029598831').split()
     OWNER_ID        = int(getenv('OWNER_ID', '880087645'))
     DIRECT_INDEX    = getenv('DIRECT_INDEX', '').rstrip('/')
     LARAVEL_SESSION = getenv('LARAVEL_SESSION', '')
